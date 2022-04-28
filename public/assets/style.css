@@ -1,0 +1,24 @@
+.__dumi-default-navbar-logo {
+  /* color: transparent !important; */
+}
+
+.__dumi-default-device-status > span:first-child {
+  display: none;
+}
+
+.__dumi-default-device-status > span:last-child {
+  text-align: left !important;
+}
+
+/* loading样式 */
+.__dumi-loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.__dumi-loading img {
+  width: 200px;
+  height: 200px;
+}

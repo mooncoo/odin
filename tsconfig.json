@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "baseUrl": "./",
+    "strict": true,
+    "paths": {
+      "@/*": ["src/*"],
+      "@@/*": ["src/.umi/*"],
+      "@components/*": ["packages/odin-hooks/src/components/*"],
+      "@project/*": ["./*"]
+    },
+    "typeRoots": ["node_modules/@types", "typings.d.ts"],
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "declaration": false,
+    "strictNullChecks": true
+  },
+  "exclude": [
+    "node_modules",
+    "lib",
+    "es",
+    "dist",
+    "typings",
+    "**/__test__",
+    "test",
+    "docs",
+    "tests"
+  ]
+}

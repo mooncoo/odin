@@ -1,0 +1,7 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "typeRoots": ["./typings/index.d.ts", "../../node_modules/@types"]
+  }
+}
