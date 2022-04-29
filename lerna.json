@@ -1,0 +1,20 @@
+{
+  "packages": ["packages/*"],
+  "command": {
+    "version": {
+      "allowBranch": "main",
+      "includeMergedTags": true,
+      "message": "chore(release): publish %s",
+      "conventionalCommits": true
+    },
+    "publish": {
+      "registry": "https://registry.npmjs.org",
+      "message": "chore(release): publish %s"
+    }
+  },
+  "useWorkspaces": true,
+  "ignoreChanges": ["**/*.md", "**/es/*", "**/lib/*", "**/dist/*"],
+  "version": "0.0.0",
+  "tagVersionPrefix": "odin-v",
+  "npmClient": "yarn"
+}

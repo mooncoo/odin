@@ -1,0 +1,63 @@
+{
+  "name": "odin-hooks",
+  "version": "0.0.0",
+  "description": "为 Taro 而设计的 Hooks Library",
+  "keywords": [
+    "odin-hooks",
+    "hooks",
+    "taro",
+    "tarojs",
+    "tarojs-hooks",
+    "react",
+    "react-hooks",
+    "javascript",
+    "lerna",
+    "monorepo",
+    "wechat",
+    "miniprograme",
+    "typescript",
+    "helpers",
+    "web",
+    "h5",
+    "rn",
+    "react-native"
+  ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "dist/index.d.ts",
+  "unpkg": "dist/odin-hooks.js",
+  "jsdelivr": "dist/odin-hooks.js",
+  "sideEffects": false,
+  "author": "mooncoo <18305142594@163.com> (https://github.com/mooncoo)",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": "https://github.com/mooncoo/odin",
+  "homepage": "https://mooncoo.github.io/odin-hooks/",
+  "scripts": {
+    "build": "yarn father-build"
+  },
+  "files": [
+    "dist",
+    "lib",
+    "es",
+    "package.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "@babel/runtime": "^7.14.6"
+  },
+  "devDependencies": {
+    "@tarojs/taro": "3.4.1",
+    "react": "^17.0.2"
+  },
+  "peerDependencies": {
+    "@tarojs/taro": ">= 3.x",
+    "react": ">=16.9"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "license": "MIT",
+  "gitHead": "0524d75fe9d47a180eb1c53e091ecdd07abc4e2c"
+}

@@ -1,0 +1,40 @@
+text,
+view {
+  font-family: 'mesloLGS';
+}
+page {
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+.page {
+  position: relative;
+  background-color: #f8f8f8;
+
+  view {
+    box-sizing: border-box;
+  }
+}
+
+.doc-body {
+  min-height: calc(100vh - 180px);
+  padding-bottom: 60px;
+  padding-bottom: calc(constant(safe-area-inset-bottom) + 60px);
+  padding-bottom: calc(env(safe-area-inset-bottom) + 60px);
+  background: #fff;
+  box-shadow: 0 26px 163px 0 rgba(0, 0, 0, 0.11);
+
+  .panel {
+    margin: 0 0 56px;
+    padding-top: 32px;
+
+    &__content {
+      position: relative;
+      padding: 0 20px;
+
+      &.no-padding {
+        padding: 0;
+      }
+    }
+  }
+}

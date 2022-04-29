@@ -1,0 +1,10 @@
+{
+  "dev": {
+    "baseUrl": "xxxx",
+    "appid": "222"
+  },
+  "test": {
+    "baseUrl": "1111",
+    "appid": "333"
+  }
+}

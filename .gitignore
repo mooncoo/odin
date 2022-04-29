@@ -1,0 +1,37 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/npm-debug.log*
+/yarn-error.log
+/packages/*/yarn-error.log
+/yarn.lock
+/package-lock.json
+/packages/*/node_modules
+/*/node_modules
+
+/packages/taro-runtime/dist/*
+
+lerna-debug.log
+
+# production
+/dist
+/docs-dist
+/app-dist
+/packages/*/lib
+/packages/*/es
+/packages/*/dist
+/coverage
+
+# misc
+.DS_Store
+
+# umi
+.umi
+.umi-production
+.umi-test
+.env.local
+
+
+# ide
+/.idea
