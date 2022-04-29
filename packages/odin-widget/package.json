@@ -1,6 +1,6 @@
 {
   "name": "odin-widget",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "为 Taro 而设计的 widget Library",
   "keywords": [
     "odin-widget",
@@ -53,8 +53,8 @@
     "react": "^17.0.2"
   },
   "peerDependencies": {
+    "@tarojs/components": ">= 3.x",
     "@tarojs/taro": ">= 3.x",
-    "@tarojs/components":">= 3.x",
     "react": ">=16.9"
   },
   "engines": {
