@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([[33],{xHDZ:function(n,t,o){"use strict";o.r(t),o.d(t,"taro_block_core",(function(){return e}));var r=o("ZF8R"),e=function(){function n(n){Object(r["g"])(this,n)}return n.prototype.render=function(){return Object(r["e"])(r["a"],null)},n}()}}]);

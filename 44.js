@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([[44],{L9kI:function(t,n,e){"use strict";e.r(n),e.d(n,"taro_label_core",(function(){return r}));var o=e("ZF8R"),r=function(){function t(t){Object(o["g"])(this,t)}return t.prototype.render=function(){return Object(o["e"])("label",{htmlFor:this["for"]},Object(o["e"])("slot",null))},t}()}}]);
