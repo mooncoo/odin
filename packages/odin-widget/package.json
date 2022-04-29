@@ -54,6 +54,7 @@
   },
   "peerDependencies": {
     "@tarojs/taro": ">= 3.x",
+    "@tarojs/components":">= 3.x",
     "react": ">=16.9"
   },
   "engines": {

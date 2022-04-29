@@ -1,5 +1,5 @@
 export default {
-  entry: 'src',
+  entry: ['src/index.ts'],
   esm: {
     type: 'babel',
     file: 'odin-widget',
@@ -16,6 +16,7 @@ export default {
     globals: {
       react: 'React',
       '@tarojs/taro': 'Taro',
+      '@tarojs/components': 'Components',
     },
     name: 'odin-widget',
     file: 'odin-widget',

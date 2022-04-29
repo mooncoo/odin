@@ -12,13 +12,16 @@
     "paths": {
       "@/*": ["src/*"],
       "@@/*": ["src/.umi/*"],
-      "@components/*": ["packages/odin-hooks/src/components/*"],
+      "@components/*": [
+        "packages/odin-hooks/src/components/*",
+        "packages/odin-widget/src/components/*"
+      ],
       "@project/*": ["./*"]
     },
     "typeRoots": ["node_modules/@types", "typings.d.ts"],
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
-    "declaration": false,
+    "declaration": true,
     "strictNullChecks": true
   },
   "exclude": [
