@@ -21,7 +21,7 @@
     "**/lib/*",
     "**/dist/*"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "tagVersionPrefix": "odin-v",
   "npmClient": "yarn"
 }
