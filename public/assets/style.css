@@ -22,3 +22,35 @@
   width: 200px;
   height: 200px;
 }
+
+/* 处理docs下 预览模式样式 */
+
+.doc-body {
+  min-height: calc(100vh - 90px);
+  padding: 0 18px;
+  padding-bottom: 30px;
+  padding-bottom: calc(constant(safe-area-inset-bottom) + 30px);
+  padding-bottom: calc(env(safe-area-inset-bottom) + 30px);
+  background: #fff;
+  box-shadow: 0 13px 80px 0 rgba(0, 0, 0, 0.11);
+}
+.doc-body .panel {
+  margin: 0 0 28px;
+  padding-top: 16px;
+}
+.doc-body .panel .panel__content {
+  position: relative;
+  padding: 0 10px;
+}
+.doc-body .panel .panel__content.no-padding {
+  padding: 0;
+}
+
+.button-box .button-box-item {
+  margin-right: 0.13rem;
+  margin-bottom: 0.13rem;
+  cursor: pointer;
+}
+.button-box .button-box-item:nth-child(3) {
+  margin-right: 0;
+}

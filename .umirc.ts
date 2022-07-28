@@ -26,10 +26,15 @@ export default defineConfig({
   dynamicImport: {
     loading: resolve(__dirname, 'loading'),
   },
+  lessLoader: {
+    lessOptions: {
+      paths: [__dirname + '/packages/odin-ui/src/styles/index.less'],
+    },
+  },
   extraPostCSSPlugins: [
     //解决非启动状态下h5的font-size问题
     require('postcss-pxtorem')({
-      exclude: /packages\/hooks|.dumi|docs/i,
+      exclude: /packages\/odin-hooks|.dumi|docs/i,
       rootValue: 100,
       unitPrecision: 5,
       propList: ['*'],
@@ -47,6 +52,7 @@ export default defineConfig({
   },
   define: {
     'process.env.TARO_ENV': 'h5',
+    baseUrl: baseUrl,
   },
   navs: [
     null,
@@ -57,7 +63,9 @@ export default defineConfig({
     // },
   ],
   links: [{ rel: 'stylesheet', href: `${baseUrl}/assets/style.css` }],
+  cssModulesTypescriptLoader: {},
   themeConfig: {
+    carrier: 'odin-ui', // 设备状态栏左侧的文本内容
     hd: {
       rules: [
         { maxWidth: 375, mode: 'vw', options: [100, 750] },

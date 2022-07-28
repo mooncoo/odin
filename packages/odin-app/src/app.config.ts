@@ -5,7 +5,6 @@ export default {
     'pages/hooks/useEnv/index',
 
     //ui
-    'pages/ui/index/index',
     'pages/ui/button/index',
   ],
   window: {

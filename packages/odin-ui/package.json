@@ -22,12 +22,15 @@
     "rn",
     "react-native"
   ],
+  "sideEffects": [
+    "dist/*",
+    "*.less"
+  ],
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "dist/index.d.ts",
   "unpkg": "dist/odin-ui.js",
   "jsdelivr": "dist/odin-ui.js",
-  "sideEffects": false,
   "author": "mooncoo <18305142594@163.com> (https://github.com/mooncoo)",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
@@ -50,7 +53,8 @@
   "devDependencies": {
     "@tarojs/components": "3.4.1",
     "@tarojs/taro": "3.4.1",
-    "react": "^17.0.2"
+    "react": "^17.0.2",
+    "classnames": "^2.3.1"
   },
   "peerDependencies": {
     "@tarojs/components": ">= 3.x",
@@ -61,5 +65,5 @@
     "node": ">=12.0.0"
   },
   "license": "MIT",
-  "gitHead": "0524d75fe9d47a180eb1c53e091ecdd07abc4e2c"
+  "gitHead": "0a8b9fedcfe8a4631570f801248f76c044236049"
 }

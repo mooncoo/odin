@@ -16,8 +16,10 @@ page {
   }
 }
 
+
 .doc-body {
   min-height: calc(100vh - 180px);
+  padding: 0 38px;
   padding-bottom: 60px;
   padding-bottom: calc(constant(safe-area-inset-bottom) + 60px);
   padding-bottom: calc(env(safe-area-inset-bottom) + 60px);
@@ -35,6 +37,19 @@ page {
       &.no-padding {
         padding: 0;
       }
+    }
+  }
+}
+
+
+.button-box {
+  &-item {
+    margin-right: 0.13rem;
+    margin-bottom: 0.13rem;
+    cursor: pointer;
+
+    &:nth-child(3) {
+      margin-right: 0;
     }
   }
 }
