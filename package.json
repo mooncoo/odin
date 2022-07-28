@@ -18,7 +18,7 @@
     "lerna:publish:major": "lerna publish major --no-private",
     "lerna:publish:minor": "lerna publish minor --no-private",
     "lerna:publish:patch": "lerna publish patch --no-private",
-    "release": "npm run build && npm run lerna:publish:major",
+    "release": "npm run build && npm run lerna:publish:patch",
 
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "test": "umi-test",
