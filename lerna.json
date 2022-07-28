@@ -14,7 +14,7 @@
   },
   "useWorkspaces": true,
   "ignoreChanges": ["**/*.md", "**/es/*", "**/lib/*", "**/dist/*"],
-  "version": "0.0.3",
+  "version": "0.0.4",
   "tagVersionPrefix": "odin-v",
   "npmClient": "yarn"
 }
