@@ -23,7 +23,6 @@
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "test": "umi-test",
     "test:coverage": "umi-test --coverage",
-    "prepublishOnly": "npm run build"
   },
   "main": "lib/index.js",
   "module": "es/index.js",
