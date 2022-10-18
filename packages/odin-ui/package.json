@@ -1,6 +1,6 @@
 {
   "name": "odin-ui",
-  "version": "0.0.0",
+  "version": "0.0.7",
   "description": "为 Taro 而设计的 ui Library",
   "keywords": [
     "odin-ui",
@@ -22,12 +22,15 @@
     "rn",
     "react-native"
   ],
+  "sideEffects": [
+    "dist/*",
+    "*.less"
+  ],
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "dist/index.d.ts",
   "unpkg": "dist/odin-ui.js",
   "jsdelivr": "dist/odin-ui.js",
-  "sideEffects": false,
   "author": "mooncoo <18305142594@163.com> (https://github.com/mooncoo)",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
@@ -50,6 +53,7 @@
   "devDependencies": {
     "@tarojs/components": "3.4.1",
     "@tarojs/taro": "3.4.1",
+    "classnames": "^2.3.1",
     "react": "^17.0.2"
   },
   "peerDependencies": {
@@ -61,5 +65,5 @@
     "node": ">=12.0.0"
   },
   "license": "MIT",
-  "gitHead": "0524d75fe9d47a180eb1c53e091ecdd07abc4e2c"
+  "gitHead": "c6a7c51e38853693e0dd8b46ec48f0410e3e9d03"
 }

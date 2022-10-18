@@ -2,7 +2,7 @@
   "miniprogramRoot": "dist/",
   "projectname": "odin",
   "description": "odin weapp & h5 demo",
-  "appid": "222",
+  "appid": "333",
   "setting": {
     "urlCheck": false,
     "es6": false,

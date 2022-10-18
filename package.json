@@ -10,20 +10,19 @@
     "docs:deploy": "gh-pages -d docs-dist",
     "deploy": "npm run docs:build:gh && npm run docs:deploy",
 
-    "odin:start": "cd ./packages/odin-app && cross-env TYPE_ENV=start node ./config/start.js", 
-    "odin:build": "cd ./packages/odin-app && cross-env TYPE_ENV=build node ./config/start.js", 
+    "odin:start": "cd ./packages/odin-app && cross-env TYPE_ENV=start node ./config/start.js",
+    "odin:build": "cd ./packages/odin-app && cross-env TYPE_ENV=build node ./config/start.js",
     "build": "father-build",
 
     "lerna:publish": "lerna publish --no-private",
     "lerna:publish:major": "lerna publish major --no-private",
     "lerna:publish:minor": "lerna publish minor --no-private",
     "lerna:publish:patch": "lerna publish patch --no-private",
-    "release": "npm run build && npm run lerna:publish:major",
-    
+    "release": "npm run build && npm run lerna:publish:patch",
+
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "test": "umi-test",
-    "test:coverage": "umi-test --coverage",
-    "prepublishOnly": "npm run build"
+    "test:coverage": "umi-test --coverage"
   },
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -75,7 +74,7 @@
     "postcss-pxtorem": "5.1.1",
     "postcss-pxtransform": "^3.4.1",
     "yorkie": "^2.0.0",
-    
+
 
     "all-contributors-cli": "^6.20.0",
     "babel-plugin-const-enum": "^1.2.0",

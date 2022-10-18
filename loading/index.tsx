@@ -1,6 +1,5 @@
 import React from 'react';
 import { useSpring, animated } from '@react-spring/web';
-
 const Loading = () => {
   const styles = useSpring({
     loop: true,
@@ -9,7 +8,7 @@ const Loading = () => {
   });
   return (
     <animated.div className="__dumi-loading" style={styles}>
-      <img src={`/image/logo.png`} />
+      <img src={`${process.env.baseUrl}/image/logo.png`} />
     </animated.div>
   );
 };

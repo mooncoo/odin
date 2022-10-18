@@ -1,5 +1,6 @@
 export default {
   entry: ['src/index.ts'],
+  lessInBabelMode: true,
   esm: {
     type: 'babel',
     file: 'odin-ui',
